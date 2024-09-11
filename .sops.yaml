@@ -12,10 +12,10 @@
 creation_rules:
   # Dev secrets
   - path_regex: .*dev/.*values-secret.yaml
-    age: age1qvesyd4zyqs5p40n8gr2ngjvsg6surf9e37h3xv7rm7m5lsgz5jsetg3ql
+    age: age1ln0hyfv26nu7c9ljq99aulgqxu3y2l3jggv9ggt9pekqvz8tu34q9a4zwt
   - path_regex: .*dev/.*.yaml
     encrypted_regex: ^(data|stringData)$
-    age: age1qvesyd4zyqs5p40n8gr2ngjvsg6surf9e37h3xv7rm7m5lsgz5jsetg3ql
+    age: age1ln0hyfv26nu7c9ljq99aulgqxu3y2l3jggv9ggt9pekqvz8tu34q9a4zwt
   # Staging secrets
   - path_regex: .*staging/.*values-secret.yaml
     age: age1fapwknfa6lm0rmpxe4dkuyjpcz9wwju73ghw53f74yqjhrevtyxs43h2yg
